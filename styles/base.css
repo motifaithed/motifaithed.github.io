@@ -1,0 +1,23 @@
+html{
+    font-family: 'Montserrat',sans-serif;
+
+    
+    --color-primary-400: #339fcd;
+
+    --color-gray-600: rgb(56, 56, 56);
+
+    --size-font-nav:1.2rem;
+    --size-font-nav-mobile: 1rem;
+}
+
+img,
+nav i:hover,
+#side-drawer i:hover{
+    cursor: pointer;
+    transition: transform 0.25s ease-out;
+  }
+  img:hover,
+  nav i:hover,
+#side-drawer i:hover{
+        transform: scale(1.05);
+  }
