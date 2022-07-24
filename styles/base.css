@@ -6,18 +6,41 @@ html{
 
     --color-gray-600: rgb(56, 56, 56);
 
-    --size-font-nav:1.2rem;
+    --size-font-nav:1rem;
     --size-font-nav-mobile: 1rem;
 }
+.gray{
+  color: var(--color-gray-600);
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.main-container{
+  width: 75%;
+  margin: 0 auto;
+  
 
-img,
+}
+body{
+  /* background-image: ('../images/backgrounds/landing.png'); */
+  background-color: ('../images/backgrounds/landing.png');
+}
+#ra-logo,
 nav i:hover,
-#side-drawer i:hover{
+#side-drawer i:hover,
+#profile-banner-function{
     cursor: pointer;
     transition: transform 0.25s ease-out;
+    z-index: 997;
   }
-  img:hover,
+  #ra-logo:hover,
   nav i:hover,
-#side-drawer i:hover{
+#side-drawer i:hover
+{
         transform: scale(1.05);
   }
+  #profile-banner-function:hover{
+    transform: scale(1.05);
+    z-index: 997;
+  }
+

@@ -8,10 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;900&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/b63eb65403.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/b63eb65403.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- End Custom Fonts declaration -->
     <!-- Bootstrap declaration -->
     <link
@@ -22,48 +25,109 @@
     />
     <!-- End Bootstrap declaration -->
     <!-- Custom CSS declaration -->
-    <link rel="stylesheet" href="./styles/base.css">
-    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="./styles/landing.css" />
     <!-- End custom CSS declaration -->
     <title>R.A Portfolio</title>
   </head>
   <body>
+    <!-- navbars -->
     <header>
       <!-- main navbar -->
-        <nav  id="main-nav">
-            <div class="nav-content">
-                <ul class="nav-content-medium-sm">
-                  <li><a href="#"><img src="./images/aR.png" alt="RA logo"></a></li>
-                  <li id="hamburger-icon"><a href="#side-drawer"><i class="fa-solid fa-bars"></i></a></li>
-                </ul>
-                <ul class="nav-lists">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-          </nav>
+      <nav id="main-nav">
+        <div class="nav-content">
+          <ul class="nav-content-medium-sm">
+            <li>
+              <a href="#"
+                ><img id="ra-logo" src="../images/aR.png" alt="RA logo"
+              /></a>
+            </li>
+            <li id="hamburger-icon">
+              <a href="#side-drawer"><i class="fa-solid fa-bars"></i></a>
+            </li>
+          </ul>
+          <ul class="nav-lists">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
       <!-- end main navbar -->
     </header>
     <aside id="side-drawer">
       <nav id="nav-mobile">
         <div class="nav-content-mobile">
           <ul class="nav-content-medium-sm header-mobile">
-            <li><a href="#"><img src="./images/aR.png" alt="RA logo"></a></li>
-            <li id="hamburger-icon"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+            <li>
+              <a href="#"><img src="./images/aR.png" alt="RA logo" /></a>
+            </li>
+            <li id="hamburger-icon">
+              <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </li>
           </ul>
           <ul class="nav-lists-mobile">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-        </ul>
+          </ul>
         </div>
       </nav>
-    <main></main>
+    </aside>
+    <!-- end navbars -->
+    <!-- main content -->
+    <main class="main-container" >
+      <div id="home">
+    
+        <section id="profile-info">
+          <div id="profile-banner-soc-media">
+          
+            <ul id="banner-profile">
+              <li id="profile-img"><p><img src="./images/profile_picture2.jpg" alt="profile picture"></p></li>
+              <li class="gray" id="banner-greeting"><p class="profile-text">Hello, I'm</p></li>
+              <li class="gray uppercase" id="banner-name"><p class="profile-text">Ronel Andaya</p></li>
+              <li class="gray uppercase" id="banner-position"><p class="profile-text">Full-Stack Developer</p></li>
+              <li class="gray uppercase" id="btn-to-resume"><p class="profile-text"><a id="btn-resume" href="">View Resume</a></p></li>
+              
+            </ul>
+            <ul id="social-media">
+              <li class="soc-med-icon"> <a href="https://www.facebook.com/ronel.andaya" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li class="soc-med-icon"><a href="https://twitter.com/whey123" target="_blank"><i class="fa-brands fa-twitter"></i></i></a> </li>
+              <li class="soc-med-icon"><a href="https://www.instagram.com/ronel_andaya" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+              <li class="soc-med-icon"><a href="https://www.linkedin.com/in/ronel-andaya-185781110" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+          <div id="profile-banner-function">
+            <ol id="profile-function">
+              <li>function <strong>showAwesomePortfolio()</strong> {</li>
+                <li>&emsp;const name = "<strong>Ronel Andaya</strong>";</li>
+                <li>&emsp;const age=new Date().getFullYear()-1996;</li>
+                <li>&emsp;const canDo = ["<strong>design","dev","devops"</strong>];</li>
+                <li>&emsp;const <strong>awesomePortfoilo</strong> = { </li>
+                  <li>&emsp;&emsp;&emsp;&emsp;name:<strong>name</strong></li>
+                  <li>&emsp;&emsp;&emsp;&emsp;age:<strong>age</strong></li>
+                  <li>&emsp;&emsp;&emsp;&emsp;skills:<strong>strongcanDo</strong></li>
+                  <li>&emsp;&emsp;&emsp;};</li>
+                <li>&emsp;return <strong>awesomePortfoilo</strong>;</li>
+                <li>}</li>
+            </ol>
+          </div>
+        </section>
+   
+        <img
+          id="landing-img"
+          src="./images/backgrounds/landing.png"
+          alt="abstract image"
+        />
+      </div>
+    </main>
+    <!-- end main content -->
     <footer></footer>
     <!-- JS Dependencies -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
       integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
