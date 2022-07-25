@@ -1,0 +1,75 @@
+#projects{
+    /* margin-top: rem; */
+    position: relative;
+    /* background-color: #529eba; */
+    background-image: linear-gradient(to bottom left,#529eba, white);
+    
+}
+#projects .divider1, #projects .divider2{
+    margin-left:0;
+    margin-right: 0;
+}
+#projects h2{
+   color: white;
+   padding-top: 6rem;
+   padding-bottom: 3rem;
+    text-align: center;
+    z-index: 997;
+}
+#projects ul{
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 5rem;
+}
+
+#projects li{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.card{
+    width: 18rem;
+    height: 30rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 4px 4px 8px rgba(12, 11, 11, 0.6);
+    transition: transform 0.25s ease-out;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card img{
+    transition: transform 0.25s ease-out;
+    object-fit: cover;
+    cursor: pointer;
+    height: 15rem;
+}
+.card-body p{
+    font-family: 'Montserrat',sans-serif !important;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.card-body i{
+    font-size: 2.5rem;
+    color: var(--color-primary-400);
+    cursor: pointer;
+    transition: transform 0.25s ease-out;
+}
+.card-body i:hover, .card img:hover{
+    transform: scale(1.05);
+}
+
+/* media queries */
+@media (max-width: 81rem){
+    #projects .divider1,#projects .divider2{
+        gap: 2rem;
+    }
+}
+@media (max-width:48rem){
+    #projects ul{
+        gap: 2rem;
+    }
+}
+/* end media queries */

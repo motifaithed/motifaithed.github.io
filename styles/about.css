@@ -1,0 +1,102 @@
+#about{
+    position: relative;
+  
+    width: 75%;
+    margin: 0 auto;
+ 
+    z-index: 996;
+   
+    
+
+}
+
+#about-img-div{
+    position: absolute;
+    top:55rem;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 30rem;  
+    
+}
+#about-img-div img{
+    width: 100%;
+    height: 30rem;
+}
+
+/* media query */
+@media (max-width: 66rem){
+   #about-img-div{
+    top:67rem;
+   }
+   #about{
+    margin-top: 10rem;
+   }
+}
+
+/* ipad air */
+@media (max-width:51.25rem){
+    #about{
+        margin-top: 0rem;
+    }
+}
+/* bleed solve */
+@media(max-width:51.24rem){
+    #about{
+        margin-top: 10rem;
+    }
+}
+/* ipad mini */
+@media (max-width:48rem){
+    .content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .content h2{
+        padding-top: 2rem;
+    }
+    #about{
+        margin-top: 9rem;
+    }
+}
+@media(max-width:39rem){
+
+    #about-img-div{
+        height: 35rem;
+    }
+    #about-img-div img{
+        height: 35rem;
+    }
+}
+@media(max-width:36rem){
+    #about{
+        margin-top: 15rem;
+    }
+    #about-img-div{
+        top: 72rem;
+    }
+    .content h2{
+        padding-top: 2rem;
+        padding-bottom: 0;
+    }
+}
+/* iphone 12 pro */
+@media(max-width:26rem){
+    #about{
+       margin-top: 29rem;
+        width: 90%;
+       
+    }
+
+    #about-img-div{
+        top: 77rem;
+    }  
+}
+@media (max-width:23.44rem){
+    #about{
+        margin-top: 38rem;    
+     }
+    
+}
+/* iphone se */
+/* end media query */

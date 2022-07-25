@@ -17,17 +17,18 @@
     ></script>
     <!-- End Custom Fonts declaration -->
     <!-- Bootstrap declaration -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!-- End Bootstrap declaration -->
     <!-- Custom CSS declaration -->
     <link rel="stylesheet" href="./styles/base.css" />
     <link rel="stylesheet" href="./styles/nav.css" />
     <link rel="stylesheet" href="./styles/landing.css" />
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/core-skills.css">
+    <link rel="stylesheet" href="./styles/projects.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+
+
     <!-- End custom CSS declaration -->
     <title>R.A Portfolio</title>
   </head>
@@ -50,6 +51,7 @@
           <ul class="nav-lists">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -71,6 +73,7 @@
           <ul class="nav-lists-mobile">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#skills-and-tools">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -84,6 +87,10 @@
       <div id="landing-img-div">
         <img src="./images/backgrounds/landing_2.png" alt="">   
       </div>
+      <div id="about-img-div">
+        <img src="./images/backgrounds/divider.png" alt="">
+      </div>
+      
       <!-- end background-image -->
       <!-- home -->
       <div id="home">
@@ -122,25 +129,240 @@
         </section>
       </div>
       <!-- end home -->
-      
-      <div id="about">
-        <img src="./images/backgrounds/divider.svg" alt="">
-      </div>
+      <!-- about -->
+      <section id="about">
+        <div class="about-content content">
+          <h2>About Me</h2>
+          <p>
+            Hi, I'm Ronel, a passionate software engineer from the Philippines, currently working at HealthConnect PH as
+            developer and server administrator. I've been building apps on the web and cross-platform softwares since
+            2016. My attention to details and ability to adapt to new technology is my edge in this tech field.
+          </p>
+          <p>
+            On my free time, I love to play the drums and the keyboard, I do play on gigs part-time. Someone told me
+            that a programmer offline is always an artist of many kind and I lived with that. Contact me and let's have a coffee.
+          </p>
+        </div>
+      </section>
+      <!-- end about -->
+      <!-- skills and Tools -->
+      <section id="skills-and-tools">
+              
+        <div class="container-fluid">
+          <!-- core skills -->
+          <section id="skills">
+            <h2>My Core Skills</h2>
+            <ul class="d-flex flex-column flex-md-row justify-content-center">
+              <div class="row justify-content-center divider1">
+                  <li>
+                    <p class="text-center">
+                      <i class="fa-brands fa-html5"></i>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="text-center">
+                      <i class="fa-brands fa-css3"></i>
+                    </p>
+                  </li>
+                </div>
+                <div class="row justify-content-center divider2">
+  
+                  <li>
+                    <p class="text-center">
+                      <i class="fa-brands fa-js-square"></i>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="text-center">
+                      <i class="fa-brands fa-php"></i>
+                    </p>
+                  </li>
+                </div>   
+              </ul>
+            </section> 
+            <!-- end core skills -->
+             
+            <!-- front-end tools -->
+            <section id="tools">
+            <div class="d-flex">
+              <ul class="d-flex flex-column flex-md-row justify-content-center">
+                <div class="d-flex flex-column inside-front-end">
+  
+                  <h3>Front-End Tools</h3>
+                  <div class="row justify-content-center divider1">
+                    <li>
+                      <p class="text-center">
+                        <i class="fa-brands fa-react" id="tools-react"></i>
+                      </p>
+                    </li>
+                    <li>
+                      <p class="text-center">
+                        <i class="fa-brands fa-vuejs tools-i"></i>
+                      </p>
+                    </li>
+                  </div>  
+                </div>
+              </ul> 
+            <!-- end front-end tools -->
+            <!-- back-end tools -->
+            <ul class="d-flex flex-column flex-md-row justify-content-center">
+              <div class="d-flex flex-column inside-backend-tools">
+                <h3>Back-End Tools</h3>
+                <div class="row justify-content-center divider1">
+                  <li>
+                    <p class="text-center">
+                      <i class="fa-brands fa-node-js"></i>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="text-center">
+                      <i class="fa-brands fa-laravel"></i>
+                    </p>
+                  </li>
+                </div>
+              </div>
+              </ul> 
+            <!-- end back-end tools -->
+          </section>
+          <section id="database">
+              <div class="d-flex">
+                <ul class="d-flex flex-column flex-md-row justify-content-center">
+                  <div class="d-flex flex-column inside-front-end">
+    
+                    <h3>SQL/MongoDB</h3>
+                    <div class="row justify-content-center divider1">
+                      <li>
+                        <p class="text-center">
+                          <i class="fa-solid fa-database"></i>
+                        </p>
+                      </li>
+                    </div>  
+                  </div>
+                </ul> 
+          </section>
+        </div>
+      </section>
+      <!-- end skills and tools -->
+      <!-- projects -->
+      <section id="projects">
+        <h2>Recent Projects</h2>
+        <ul class="d-flex flex-column flex-md-row justify-content-center">
+          <div class="row justify-content-center divider1">
+            <li>
+              <div class="card">
+                <img src="./images/projects/hcpro.PNG" class="card-img-top" alt="oqat image">
+                <div class="card-body">
+                  <h5>OQAT</h5>
+                  <p>Technology: <strong>Magic XPA</strong></p>
+                  <p>Industry: <strong>Health Care</strong></p>
+                  <p>OS: <strong>IOS, Android, PC</strong> </p>
+                  <p>
+                    <i class="fa-solid fa-circle-arrow-right"></i>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card">
+                <img src="./images/projects/homecarepro.png" class="card-img-top" alt="healthconnect pro image">
+                <div class="card-body">
+                  <h5>HealthConnect Pro</h5>
+                  <p>Technology: <strong>Magic XPA</strong></p>
+                  <p>Industry: <strong>Health Care</strong></p>
+                  <p>OS: <strong>IOS, Android, PC</strong> </p>
+                  <p>
+                    <i class="fa-solid fa-circle-arrow-right"></i>
+                  </p>
+                </div>
+              </div>
+            </li>
+          </div>
+          <div class="row justify-content-center divider2">
+            <li>
+              <div class="card">
+                <img src="./images/projects/hrsystems.PNG" class="card-img-top" alt="hrsystems image">
+                <div class="card-body">
+                  <h5>HR Systems</h5>
+                  <p>Technology: <strong>Magic XPA</strong></p>
+                  <p>Industry: <strong>Human Resource</strong></p>
+                  <p>OS: <strong>PC</strong> </p>
+                  <p>
+                    <i class="fa-solid fa-circle-arrow-right"></i>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card">
+                <img src="./images/projects/billingAndMonitoring.PNG" class="card-img-top" alt="billing and monitoring image">
+                <div class="card-body">
+                  <h5>Billing & Monitoring</h5>
+                  <p>Technology: <strong>Magic XPA</strong></p>
+                  <p>Industry: <strong>Accounting & Finance</strong></p>
+                  <p>OS: <strong>PC</strong> </p>
+                  <p>
+                    <i class="fa-solid fa-circle-arrow-right"></i>
+                  </p>
+                </div>
+              </div>
+            </li>
+          </div>
+        </ul>
+      </section>
+      <!-- end projects -->
+      <section id="contact" style="height: 100vh">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="contact-info">
+                <i class="fa-solid fa-envelope-open-text"></i>
+                <h2>Contact Us</h2>
+                <h4>We would love to hear from you !</h4>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="contact-form">
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="fname">First Name:</label>
+                  <div class="col-sm-10">          
+                  <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="lname">Last Name:</label>
+                  <div class="col-sm-10">          
+                  <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="email">Email:</label>
+                  <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="message">Message:</label>
+                  <div class="col-sm-10">
+                  <textarea class="form-control" rows="5" id="message"></textarea>
+                  </div>
+                </div>
+                <div class="form-group">        
+                  <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-default">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </section>
     </main>
     <!-- end main content -->
     <footer></footer>
     <!-- JS Dependencies -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <!-- End JS Dependencies -->
   </body>
 </html>

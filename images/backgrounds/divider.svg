@@ -7,7 +7,7 @@
 </style>
 <linearGradient id="XMLID_3_" gradientUnits="userSpaceOnUse" x1="306" y1="504" x2="306" y2="217">
 	<stop  offset="0" style="stop-color:#54A1BC"/>
-	<stop  offset="0.7291" style="stop-color:#559CB9"/>
+	<stop  offset="1" style="stop-color:#559CB9"/>
 	<stop  offset="1" style="stop-color:#FFFFFF"/>
 </linearGradient>
 <polygon id="XMLID_2_" class="st0" points="612,437 0,504 0,284 612,217 "/>
