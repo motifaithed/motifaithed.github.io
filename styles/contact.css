@@ -1,9 +1,14 @@
+#contact {
+    height: 100vh;
+}
 #contact .container{
     padding: 4%;
     height: 400px;
     
 }
-
+#contact .contact-main{
+    box-shadow: 4px 4px 4px rgba(12, 11, 11, 0.6);
+}
 #contact i{
     font-size: 4rem;
     padding-bottom: 3rem;
