@@ -9,7 +9,6 @@ html{
 
     
     --color-primary-400: #339fcd;
-
     --color-gray-600: rgb(56, 56, 56);
 
     --size-font-nav:1rem;
@@ -24,7 +23,6 @@ html{
 .main-container{
   position:relative;
   width: 100%;
-  /* margin: 0 auto; */
 }
 h2{
   font-size: 1.5rem;
@@ -49,14 +47,12 @@ body{
 }
 
 .content{
-  padding: 6rem 3rem;
+ 
   text-align: justify;
   color: white;
 }
 
-.content h2{
-  padding-bottom: 2rem;
-}
+
 .content p{
   font-size: 1rem;
 }
