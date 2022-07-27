@@ -27,6 +27,10 @@
     padding-right: 1rem;
     
 }
+#projects h5{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
 .card{
     width: 18rem;
     height: 30rem;
@@ -45,22 +49,40 @@
     cursor: pointer;
     height: 15rem;
 }
-.card-body p{
+.card-body {
+    padding-top: 0.25rem;
+    overflow: hidden;
+}
+.card p{
     font-family: 'Montserrat',sans-serif !important;
     font-size: 0.8rem;
     text-align: center;
 }
 
-.card-body i{
+.card i{
     font-size: 2.5rem;
     color: var(--color-primary-400);
     cursor: pointer;
     transition: transform 0.25s ease-out;
 }
-.card-body i:hover, .card img:hover{
+.card i:hover, .card img:hover{
     transform: scale(1.05);
 }
-
+.card-footer{
+    padding-top: 0.2rem;
+    height: 6rem;
+}
+.card-footer .footer-heading{
+    
+    margin-bottom: 0.25rem;
+}
+.card-footer .footer-tech{
+    margin-bottom: 0.25rem;
+}
+.card-footer .footer-direction{
+    align-items: center;
+    justify-content: space-around;
+}
 /* media queries */
 @media (max-width: 81rem){
     #projects .divider1,#projects .divider2{
