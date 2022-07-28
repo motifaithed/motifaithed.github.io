@@ -1,97 +1,99 @@
-#projects{
-    /* margin-top: rem; */
-    position: relative;
-    /* background-color: #529eba; */
-    background-image: linear-gradient(to bottom left,#529eba, white);
-    
+#projects {
+  position: relative;
+  background-image: linear-gradient(to bottom left, #529eba, white);
 }
-#projects .divider1, #projects .divider2{
-    margin-left:0;
-    margin-right: 0;
+#projects .divider1,
+#projects .divider2 {
+  margin-left: 0;
+  margin-right: 0;
 }
-#projects h2{
-   color: white;
-   padding-top: 6rem;
-   padding-bottom: 3rem;
-    text-align: center;
-    z-index: 997;
+#projects h2 {
+  color: white;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  z-index: 997;
 }
-#projects ul{
-    list-style: none;
-    padding-left: 0;
-    padding-bottom: 5rem;
+#projects ul {
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 5rem;
+  margin: 0;
+  gap: 2rem;
 }
 
-#projects li{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    
+#projects li {
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
+  /* margin: 0; */
 }
-#projects h5{
-    font-size: 1rem;
-    margin-bottom: 1rem;
+#projects h5 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
-.card{
-    width: 18rem;
-    height: 30rem;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 4px 4px 8px rgba(12, 11, 11, 0.6);
-    transition: transform 0.25s ease-out;
-    cursor: pointer;
+.card {
+  width: 18rem;
+  height: 30rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 4px 4px 8px rgba(12, 11, 11, 0.6);
+  transition: transform 0.25s ease-out;
+  cursor: pointer;
 }
-.card:hover{
-    transform: scale(1.05);
+.card:hover {
+  transform: scale(1.05);
 }
-.card img{
-    transition: transform 0.25s ease-out;
-    object-fit: cover;
-    cursor: pointer;
-    height: 15rem;
+.card img {
+  transition: transform 0.25s ease-out;
+  object-fit: cover;
+  cursor: pointer;
+  height: 15rem;
 }
 .card-body {
-    padding-top: 0.25rem;
-    overflow: hidden;
+  padding-top: 0.25rem;
+  overflow: hidden;
 }
-.card p{
-    font-family: 'Montserrat',sans-serif !important;
-    font-size: 0.8rem;
-    text-align: center;
+.card p {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
-.card i{
-    font-size: 2.5rem;
-    color: var(--color-primary-400);
-    cursor: pointer;
-    transition: transform 0.25s ease-out;
+.card i {
+  font-size: 2.5rem;
+  color: var(--color-primary-400);
+  cursor: pointer;
+  transition: transform 0.25s ease-out;
 }
-.card i:hover, .card img:hover{
-    transform: scale(1.05);
+.card i:hover,
+.card img:hover {
+  transform: scale(1.05);
 }
-.card-footer{
-    padding-top: 0.2rem;
-    height: 6rem;
+.card-footer {
+  padding-top: 0.2rem;
+  height: 6rem;
 }
-.card-footer .footer-heading{
-    
-    margin-bottom: 0.25rem;
+.card-footer .footer-heading {
+  margin-bottom: 0.25rem;
 }
-.card-footer .footer-tech{
-    margin-bottom: 0.25rem;
+.card-footer .footer-tech {
+  margin-bottom: 0.25rem;
 }
-.card-footer .footer-direction{
-    align-items: center;
-    justify-content: space-around;
+.card-footer .footer-direction {
+  align-items: center;
+  justify-content: space-around;
 }
 /* media queries */
-@media (max-width: 81rem){
-    #projects .divider1,#projects .divider2{
-        gap: 2rem;
-    }
+@media (max-width: 81rem) {
+  #projects .divider1,
+  #projects .divider2 {
+    gap: 2rem;
+  }
 }
-@media (max-width:48rem){
-    #projects ul{
-        gap: 2rem;
-    }
+@media (max-width: 108.94rem) {
+  #projects ul {
+    gap: 2rem;
+  }
 }
 /* end media queries */
