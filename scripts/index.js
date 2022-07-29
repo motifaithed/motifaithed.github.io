@@ -30,18 +30,29 @@ ScrollReveal().reveal(".reveal", {
   reset: true,
   easing: "ease-in-out",
 });
-ScrollReveal().reveal(".load-left", { ...loadLeft, delay: 100 });
 ScrollReveal().reveal(".load-top", { ...loadTop, delay: 300 });
-ScrollReveal().reveal(".load-right", { ...loadRight, delay: 200 });
+ScrollReveal().reveal(".load-left", { ...loadLeft, delay: 100 });
 ScrollReveal().reveal(".load-bottom", { ...loadBottom, delay: 400 });
+ScrollReveal().reveal(".load-right", { ...loadRight, delay: 200 });
 // end general loading
-// portfolio function loading
-ScrollReveal().reveal(".load-left-portfolio-function", {
+
+// delay loading
+ScrollReveal().reveal(".load-left-delay-x4", {
   ...loadLeft,
   delay: 400,
 });
-ScrollReveal().reveal(".load-right-portfolio-function", {
+ScrollReveal().reveal(".load-right-delay-x5", {
   ...loadRight,
   delay: 500,
 });
-// end portfolio function loading
+ScrollReveal().reveal(".load-top-delay-x2", { ...loadTop, delay: 200 });
+ScrollReveal().reveal(".load-top-delay-x3", { ...loadTop, delay: 300 });
+ScrollReveal().reveal(".load-top-delay-x3dot5", { ...loadTop, delay: 350 });
+ScrollReveal().reveal(".load-top-delay-x4", { ...loadTop, delay: 400 });
+ScrollReveal().reveal(".load-top-delay-x5", { ...loadTop, delay: 500 });
+ScrollReveal().reveal(".load-top-delay-x6", { ...loadTop, delay: 600 });
+ScrollReveal().reveal(".load-top-delay-x7", { ...loadTop, delay: 700 });
+ScrollReveal().reveal(".load-top-delay-x8", { ...loadTop, delay: 800 });
+// end delay loading
+
+
