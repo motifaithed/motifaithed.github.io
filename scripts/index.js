@@ -53,6 +53,7 @@ ScrollReveal().reveal(".load-top-delay-x5", { ...loadTop, delay: 500 });
 ScrollReveal().reveal(".load-top-delay-x6", { ...loadTop, delay: 600 });
 ScrollReveal().reveal(".load-top-delay-x7", { ...loadTop, delay: 700 });
 ScrollReveal().reveal(".load-top-delay-x8", { ...loadTop, delay: 800 });
+ScrollReveal().reveal(".load-top-delay-x9", { ...loadTop, delay: 900 });
 // end delay loading
 
 
