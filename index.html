@@ -35,6 +35,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
     <link rel="manifest" href="./images/favicons/site.webmanifest">
     <!-- end favicons -->
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- end scroll reveal -->
     <title>R.A Portfolio</title>
   </head>
   <body>
@@ -89,7 +92,7 @@
     <!-- main content -->
     <main class="main-container" >
       <!-- background-image -->
-      <div id="landing-img-div">
+      <div id="landing-img-div" class="reveal load-hidden">
         <img src="./images/backgrounds/landing_2.png" alt="">   
       </div>
      
@@ -101,13 +104,13 @@
         <section id="profile-info">
           <div id="profile-banner-soc-media">
             <ul id="banner-profile">
-              <li id="profile-img"><p><img src="./images/profile_picture2.jpg" alt="profile picture"></p></li>
-              <li class="gray" id="banner-greeting"><p class="profile-text">Hello, I'm</p></li>
-              <li class="gray uppercase" id="banner-name"><p class="profile-text">Ronel Andaya</p></li>
-              <li class="gray uppercase" id="banner-position"><p class="profile-text">Full-Stack Developer</p></li>
-              <li class="gray uppercase" id="btn-to-resume"><p class="profile-text"><a id="btn-resume" href="https://drive.google.com/file/d/16UBiK9BYjHyoBfp4Of4Q5iJIHzbcIm-d/view?usp=sharing" target="_blank">View Resume</a></p></li>
+              <li id="profile-img"><p class="reveal load-hidden"><img src="./images/profile_picture2.jpg" alt="profile picture"></p></li>
+              <li class="gray" id="banner-greeting"><p class="profile-text load-left load-hidden">Hello, I'm</p></li>
+              <li class="gray uppercase" id="banner-name"><p class="profile-text load-top load-hidden">Ronel Andaya</p></li>
+              <li class="gray uppercase" id="banner-position"><p class="profile-text load-right load-hidden">Full-Stack Developer</p></li>
+              <li class="gray uppercase" id="btn-to-resume"><p class="profile-text load-left load-hidden"><a id="btn-resume" href="https://drive.google.com/file/d/16UBiK9BYjHyoBfp4Of4Q5iJIHzbcIm-d/view?usp=sharing" target="_blank">View Resume</a></p></li>
             </ul>
-            <ul id="social-media">
+            <ul id="social-media" class="load-bottom load-hidden">
               <li class="soc-med-icon"> <a href="https://www.facebook.com/ronel.andaya" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
               <li class="soc-med-icon"><a href="https://twitter.com/whey123" target="_blank"><i class="fa-brands fa-twitter"></i></i></a> </li>
               <li class="soc-med-icon"><a href="https://www.instagram.com/ronel_andaya" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
@@ -115,18 +118,18 @@
             </ul>
           </div>
           <div id="profile-banner-function">
-            <ol id="profile-function">
-              <li>function <strong>showAwesomePortfolio()</strong> {</li>
-                <li>&emsp;const name = "<strong>Ronel Andaya</strong>";</li>
-                <li>&emsp;const age=new Date().getFullYear()-1996;</li>
-                <li>&emsp;const canDo = ["<strong>design","dev","devops"</strong>];</li>
-                <li>&emsp;const <strong>awesomePortfolio</strong> = { </li>
-                  <li>&emsp;&emsp;&emsp;&emsp;name:<strong>name</strong>,</li>
-                  <li>&emsp;&emsp;&emsp;&emsp;age:<strong>age</strong>,</li>
-                  <li>&emsp;&emsp;&emsp;&emsp;skills:<strong>canDo</strong></li>
-                  <li>&emsp;&emsp;&emsp;};</li>
-                <li>&emsp;return <strong>awesomePortfolio</strong>;</li>
-                <li>}</li>
+            <ol id="profile-function" class="load-top load-hidden">
+              <li class="load-left-portfolio-function">function <strong>showAwesomePortfolio()</strong> {</li>
+              <li class="load-right-portfolio-function">&emsp;const name = "<strong>Ronel Andaya</strong>";</li>
+              <li class="load-left-portfolio-function">&emsp;const age=new Date().getFullYear()-1996;</li>
+              <li class="load-right-portfolio-function">&emsp;const canDo = ["<strong>design","dev","devops"</strong>];</li>
+              <li class="load-left-portfolio-function">&emsp;const <strong>awesomePortfolio</strong> = { </li>
+              <li class="load-right-portfolio-function">&emsp;&emsp;&emsp;&emsp;name:<strong>name</strong>,</li>
+              <li class="load-left-portfolio-function">&emsp;&emsp;&emsp;&emsp;age:<strong>age</strong>,</li>
+              <li class="load-right-portfolio-function">&emsp;&emsp;&emsp;&emsp;skills:<strong>canDo</strong></li>
+              <li class="load-left-portfolio-function">&emsp;&emsp;&emsp;};</li>
+              <li class="load-right-portfolio-function">&emsp;return <strong>awesomePortfolio</strong>;</li>
+              <li class="load-left-portfolio-function">}</li>
             </ol>
           </div>
         </section>
@@ -540,6 +543,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="./scripts/index.js"></script>
     <!-- End JS Dependencies -->
   </body>
 </html>
