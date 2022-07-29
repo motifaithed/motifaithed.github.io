@@ -1,5 +1,4 @@
 const config = {
-  reset: true,
   distance: "100%",
   opacity: 0,
   easing: "ease-in-out",
@@ -27,7 +26,6 @@ const loadBottom = {
 // general loading
 ScrollReveal().reveal(".reveal", {
   delay: 500,
-  reset: true,
   easing: "ease-in-out",
 });
 ScrollReveal().reveal(".load-top", { ...loadTop, delay: 300 });
